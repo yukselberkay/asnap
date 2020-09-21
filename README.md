@@ -1,7 +1,7 @@
 # Asnap
 
 ## Description
-Asnap aims to render recon phase easier by providing updated data about which companies holds which ipv4 or ipv6 addresses and allows the user to automate initial port and service scanning.
+Asnap aims to render recon phase easier by providing regularly updated data about which companies holds which ipv4 or ipv6 addresses and allows the user to automate initial port and service scanning.
 ```
         █████╗ ███████╗███╗   ██╗ █████╗ ██████╗ 
 	██╔══██╗██╔════╝████╗  ██║██╔══██╗██╔══██╗
