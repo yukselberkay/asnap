@@ -23,7 +23,7 @@ func copyAndCapture(w io.Writer, r io.Reader) ([]byte, error) {
 			}
 		}
 		if err != nil {
-			// Read returns io.EOF at the end of file, which is not an error for us
+			// Read returns io.EOF at the end of file
 			if err == io.EOF {
 				err = nil
 			}
@@ -44,8 +44,6 @@ func nmap(outFile string) {
 		log.Fatalf("cmd.Start() failed with '%s'\n", err)
 	}
 
-	// cmd.Wait() should be called only after we finish reading
-	// from stdoutIn and stderrIn.
 	// wg ensures that we finish
 	var wg sync.WaitGroup
 	wg.Add(1)

@@ -76,5 +76,3 @@ func fileInput(inFile string, mode string, outFile string) {
 	}
 
 }
-
-// asnap -search -ipv4 -company -f file.txt
