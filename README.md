@@ -54,13 +54,13 @@ After downloading the source code, navigate through the project directory and ru
 go build
 ```
 
-this will produce asnap binary. After you build it, create asnap_conf.txt inside the same directory with the asnap, insert your key to first line and you are good to go.
+This will produce asnap binary. After you build it, create asnap_conf.txt inside the same directory with the asnap, insert your key to first line and you are good to go.
 
 ```
 echo 'insert key' > asnap_conf.txt 
 ```
 
-usage and examples
+Usage and Examples
 
 ```
 Usage of ./asnap:
@@ -86,10 +86,5 @@ Examples:
 
 
 
-Follow Me On:
+###Follow Me:
 twitter -> https://twitter.com/paradoxxer
-
-
-
-
-
