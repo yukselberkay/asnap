@@ -1,10 +1,19 @@
-# asnap
+# Asnap
 
 ## Description
-asnap aims to render recon phase easier by providing updated data about which companies holds which ipv4 or ipv6 addresses and allows the user to automate initial port and service scanning.
+Asnap aims to render recon phase easier by providing updated data about which companies holds which ipv4 or ipv6 addresses and allows the user to automate initial port and service scanning.
+```
+    █████╗ ███████╗███╗   ██╗ █████╗ ██████╗ 
+	██╔══██╗██╔════╝████╗  ██║██╔══██╗██╔══██╗
+	███████║███████╗██╔██╗ ██║███████║██████╔╝
+	██╔══██║╚════██║██║╚██╗██║██╔══██║██╔═══╝ 
+	██║  ██║███████║██║ ╚████║██║  ██║██║     
+	╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     									
+	Author : Mehmet Berkay Yuksel | Blog -> https://yukselberkay.me
+```
 
-video/screenshot/banner here.
 
+[![asciicast](https://asciinema.org/a/361001.svg)](https://asciinema.org/a/361001)
 
 
 ## Installation 
@@ -12,7 +21,7 @@ video/screenshot/banner here.
 
 If you have Go installed and configured in your $PATH enviroment variable, simply run:
 ```
-go get -u github.com/paradoxxer/asngo
+go get -u github.com/paradoxxer/asnap
 ```
 If you want to use precompiled binary, you also need to download "move.sh" and "nmap.sh" files and place them in the same directory with asnap.
 
@@ -51,8 +60,6 @@ this will produce asnap binary. After you build it, create asnap_conf.txt inside
 echo 'insert key' > asnap_conf.txt 
 ```
 
-
-
 usage and examples
 
 ```
@@ -77,7 +84,10 @@ Examples:
 "$asnap -search -ipv4 -infile /path/to/input/file.txt -nmap" -> Give a list of company names as input, search it inside ipv4 database and pass found ip addresses to nmap for port scanning.
 ```
 
-follow me on x.
+
+
+Follow Me On:
+twitter -> https://twitter.com/paradoxxer
 
 
 
