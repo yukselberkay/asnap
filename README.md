@@ -55,6 +55,28 @@ echo 'insert key' > asnap_conf.txt
 
 usage and examples
 
+```
+Usage of ./asnap:
+-download               Download database for the first usage.
+-update                 Update downloaded database. (Geolite databases updates once a week.).
+-search                 Specify search.
+-ipv4                   Specify ipv4 database to search.
+-ipv6                   Specify ipv6 database to search.
+-company                Search by company name.
+-asn                    Search by as number.
+-outfile                Specifies a name for the output text. By default, output file is named: MM-DD-YYYY_out.txt
+-infile                 Use specified .txt file as input. Asnap will iterate every line, and treats them as company names and searches specified database with given inputs.
+-nmap                   Passes found ip addresses to nmap.
+
+Examples:
+"$asnap -download" -> Downloads database with given key, for the first time.
+"$asnap -update" -> Updates database.
+"$asnap -search -ipv4 -company="example" " -> Search ipv4 database by company name "example"
+"$asnap -search -ipv6 -asn 13337" -> Search ipv6 database by as number "13337"
+"$asnap -search -ipv4 -company="github" -outfile /path/to/output/file" -> Search ipv4 database by company name "test" and save output to specified path.
+"$asnap -search -ipv4 -infile /path/to/input/file.txt -nmap" -> Give a list of company names as input, search it inside ipv4 database and pass found ip addresses to nmap for port scanning.
+```
+
 follow me on x.
 
 
