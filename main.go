@@ -48,7 +48,7 @@ func main() {
 	██╔══██║╚════██║██║╚██╗██║██╔══██║██╔═══╝ 
 	██║  ██║███████║██║ ╚████║██║  ██║██║     
 	╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     									
-	Author : Mehmet Berkay Yuksel | Blog -> https://yukselberkay.me
+	Author : Mehmet Berkay Yuksel | twitter -> @paradoxxer
 												
 	 `)
 	dwPtr := flag.Bool("download", false, "Downloads Database.")

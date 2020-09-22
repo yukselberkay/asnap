@@ -9,7 +9,7 @@ Asnap aims to render recon phase easier by providing regularly updated data abou
 	██╔══██║╚════██║██║╚██╗██║██╔══██║██╔═══╝ 
 	██║  ██║███████║██║ ╚████║██║  ██║██║     
 	╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     									
-	Author : Mehmet Berkay Yuksel | Blog -> https://yukselberkay.me
+	Author : Mehmet Berkay Yuksel | twitter -> @paradoxxer
 ```
 
 
