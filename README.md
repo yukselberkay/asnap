@@ -1,7 +1,7 @@
 # Asnap
 
 ## Description
-Asnap aims to render recon phase easier by providing regularly updated data about which companies holds which ipv4 or ipv6 addresses and allows the user to automate initial port and service scanning.
+Asnap aims to render recon phase easier by providing regularly updated data about which companies owns which ipv4 or ipv6 addresses and allows the user to automate initial port and service scanning.
 ```
         █████╗ ███████╗███╗   ██╗ █████╗ ██████╗ 
 	██╔══██╗██╔════╝████╗  ██║██╔══██╗██╔══██╗
@@ -84,7 +84,13 @@ Examples:
 "$asnap -search -ipv4 -infile /path/to/input/file.txt -nmap" -> Give a list of company names as input, search it inside ipv4 database and pass found ip addresses to nmap for port scanning.
 ```
 
+### Use Cases:
+While you can use asnap manually, you can automate this whole process with cron jobs(see -> https://en.wikipedia.org/wiki/Cron). For example after you supplied an input file with -infile argument, All you have to do is check the output file and regularly modify input file to your needs. By default output file named: "MM-DD-YYYY_out.txt".
 
 
-###Follow Me:
+
+### Follow Me:
+If you have a question or a feature that you want me to add feel free to contact me.
 twitter -> https://twitter.com/paradoxxer
+linkedin -> https://www.linkedin.com/in/mehmet-berkay-y%C3%BCksel-ab78aa153/ 
+Web Site -> https://yukselberkay.me 
