@@ -21,7 +21,7 @@ Asnap aims to render recon phase easier by providing regularly updated data abou
 
 If you have Go installed and configured in your $PATH enviroment variable, simply run:
 ```
-go get -u github.com/paradoxxer/asnap
+go get -u github.com/yukselberkay/asnap
 ```
 If you want to use precompiled binary, you also need to download "move.sh" and "nmap.sh" files and place them in the same directory with asnap.
 
