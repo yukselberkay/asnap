@@ -46,7 +46,7 @@ To be able to use port scanning functionality, you need to install nmap to your 
 
 Download the source code:
 ```
-git clone git@github.com:paradoxxer/asnap.git
+git clone git@github.com:yukselberkay/asnap.git
 ```
 
 Install golang here -> https://golang.org/doc/install
